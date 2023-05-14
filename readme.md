@@ -18,7 +18,7 @@ python -m venv .venv
 source .venv/scripts/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-pyinstaller --onefile launcher.py
+pyinstaller --onefile --noconsole launcher.py
 cp dist/launcher.exe launcher.exe
 ```
 
